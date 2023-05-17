@@ -16,3 +16,6 @@ fi
 export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
 # miki: set brew's ant to be the default
 export PATH="/usr/local/opt/ant@1.9/bin:$PATH"
+# miki: emacs build / configure-script needs 'makeinfo >= 4.13'
+#       -> replaced by 'brew install texinfo' + adding it to PATH before /usr/bin
+export PATH="/usr/local/opt/texinfo/bin:$PATH"
