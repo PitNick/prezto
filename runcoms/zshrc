@@ -23,3 +23,5 @@ TEXINFOPATH=/opt/homebrew/opt/texinfo/bin
 export PATH=$JAVA_HOME:$PATH
 export PATH=$ANTPATH:$PATH
 export PATH=$TEXINFOPATH:$PATH
+
+eval "$(~/.local/bin/mise activate zsh)"
